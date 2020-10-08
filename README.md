@@ -13,7 +13,7 @@ a = [
   { "BTC" => 5245.12 },
   { "ETH" => 217.34 },
   etc
-]
+] ```
 
 Pour les tests, inspire-toi de la ressource plus haut. Il n'y a pas besoin de faire 36 000 tests, il faut juste arriver à tester 1) le fonctionnement de base de ton programme (pas d'erreur ni de retour vide) et 2) que ton programme sort bien un array cohérent (vérifier la présence de 2-3 cryptomonnaies, vérifier que l’array est de taille cohérente, etc.).
 
@@ -29,11 +29,11 @@ Même si ça n'est pas le chemin le plus court, l'essentiel est que chaque petit
 2 - Mairie christmas
 Le CEO de Get-email Corp a besoin de tes services. Il voudrait toutes les adresses e-mail des mairies du Val d'Oise. Aucun souci pour toi. Va sur cet annuaire des mairies et récupère les adresses e-mails des mairies du Val d'Oise. Comme pour l'exercice précédent, tu devras enregistrer les données dans un array de hash suivant ce format :
 
-a = [
+```a = [
   { "ville_1" => "email_1" },
   { "ville_2" => "email_2" },
   etc
-]
+]```
 Décomposons le programme en 2 sous-problème simples:
 
 Tu dois être capable d'obtenir un e-mail de mairie à partir de la page de cette dernière (pas en partant du listing complet des mairies).
@@ -46,7 +46,7 @@ Pour les tests, ce sera la même chose que pour l'exercice précédent mais appl
 3 - Cher député
 Maintenant, fini de se faire mâcher le travail par tes gentils formateurs de THP. Tu dois récupérer la liste complète des députés de France ainsi que leurs adresses e-mail. Cherche par toi-même le site le plus aisé à scrapper et stocke les informations extraites dans une array de hashs selon ce format (un peu différent des exercices précédents) :
 
-a = [
+```a = [
   {
     "first_name" => "Jean",
     "last_name" => "Durant",
@@ -58,5 +58,5 @@ a = [
     "email" => "martin.dupont@assemblée.fr"
   },
   etc
-]
+]```
 Pour les tests, nous t'invitons à te poser et t'inspirer des tests précédents. Deux tests suffiront.
